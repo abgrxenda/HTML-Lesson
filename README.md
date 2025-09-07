@@ -82,13 +82,13 @@ Creating and maintaining this free, step-by-step course takes time, effort, and 
 
 If you’ve found this course helpful and would like to support its continued development (or just say thanks), you can buy me a coffee or donate via Ko-fi. Every little bit is deeply appreciated and helps me keep creating free resources for beginners like you!
 
-<div align="center">
+<div align="center" style="display: flex;justify-content: center;align-items: center;gap: 20px;flex-wrap: wrap;">
   <a href="https://ko-fi.com/abgrxenda" target="_blank">
-    <img src="https://github.githubassets.com/assets/ko_fi-53a60c17e75c.svg" alt="Support on Ko-fi" width="160">
+    <img src="https://github.githubassets.com/assets/ko_fi-53a60c17e75c.svg" alt="Support on Ko-fi" width="50">
   </a>
   <span style="margin: 0 20px; font-size: 24px;">or</span>
   <a href="https://buymeacoffee.com/abgrxenda" target="_blank">
-    <img src="https://github.githubassets.com/assets/buy_me_a_coffee-63ed78263f6e.svg" alt="Buy Me a Coffee" width="160">
+    <img src="https://github.githubassets.com/assets/buy_me_a_coffee-63ed78263f6e.svg" alt="Buy Me a Coffee" width="50">
   </a>
 </div>
 
