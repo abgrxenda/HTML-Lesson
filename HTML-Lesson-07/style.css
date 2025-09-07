@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS */
+:root{
+    --primary: darkgoldenrod;
+    --secondary: #2caa50;
+    --theme:  rgb(75,131,7);
+    --page-color: #343434;
+    --white: #EFEFEF;
+    --font-header: bold 20px 'Cairo';
+    --font-paragraph: 'Exo';
+}
+
+
+html, body{
+    background-color: var(--page-color);
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.bodystyle{
+    font-family: 'Cairo';
+  /* font-family: "Cookie"; */
+  /* font-weight: 400; */
+  font-style: normal;
+  line-height: 25px;
+  font-size: 20px;
+}
+a{
+    color: red;
+    text-decoration: none;
+    /* word-spacing: 50px; */
+}
+a{
+    color: var(--primary);
+}
+a:hover{
+    color: var(--secondary);
+}
+a:visited{
+
+}
+a:active, a:focus{
+
+}
+h1, h2, h3, h4, h5, h6{
+    font: var(--font-header);
+}
+h1{
+    color: var(--theme);
+    font-size: 60px;
+}
+h3{
+    font-size: small;
+}
+p{
+    font-size: 20px;
+    color: var(--theme);
+    font-family: var(--font-paragraph);
+    line-height: 32px;
+    font-style: oblique;
+    line-break:loose;
+    break-inside: avoid;
+    text-align: justify;
+    text-indent: 50px;
+    text-wrap: 100px;
+}
+img{
+    width:200px;
+}
+
+#githubImage{
+    width: 50px;
+}
+
+.imgborder{
+    border-radius: 50% 35%;
+    /* any comments */
+    /* height: 300px; */
+    /* max-height: 100px; */
+    /* border-bottom-right-radius: ;
+    border-top-left-radius: ;
+    border-top-right-radius: ;
+    border-bottom-left-radius: ; */
+}
+.smallimg{
+    width: 100px;
+    /* background-color: var(--secondary); */
+}
+.github{
+    width: 250px;
+}
+
+@keyframes identifier {
+    
+}
+
+header{
+background-color: #fbfff8;
+height: 100px;
+display: flex;
+align-items: center;
+font: var(--font-header);
+width: 100vw;
+position: fixed;
+top: 0;
+z-index: 1000;
+}
+
+div.header-logo{
+ /* background-color: #2caa50; */
+ width: fit-content;
+ height: 100px;
+ margin-left: 20px;
+}
+
+div[data-stylt]{
+    display: none;
+}
+/* pt px % vw vh */
+nav{
+    width: calc(100vw - 50%); 
+    left: calc(100vw - 75%);
+    right: calc((100vw - 75%));
+    position: relative;
+    /* position: absolute; */
+}
+nav ul{
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* width: 100%; */
+    list-style: none;
+    color: rgb(107, 43, 43);
+    font-size: 20px;
+    display: flex; /* style all elements beside each other */
+    justify-content: center; /* align horizontal*/
+    align-items: center; /* align vertical*/
+    padding: 0;
+    gap: 50px;
+}
+
+nav ul li:before{
+    content: "⭕ ";
+}
+
+main {
+    height: calc(100vh - 100px);
+    width: 100vw;
+    background-color: var(--primary);
+    background-image: url(./images/child.png), url(./images/RE4wyTK.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center, top center;
+    background-size: 25%, cover;
+    display: flex;
+    align-items: center;
+    top:100px;
+    position: relative;
+}
+
+main h1{
+    color: var(--primary);
+    margin: 0;
+}
+
+main div.main-div{
+ text-align: center;
+ font: var(--font-header)
+}
+
+main div div.paragraph{
+    display: flex;
+    font-family: var(--font-paragraph);
+}
+
+div.paragraph p{
+    color: whitesmoke;
+    padding: 100px;
+}
+/* Service Section */
+.services-section{
+    width: 100vw;
+    /* height: 500px; */
+    background-color: var(--white);
+    padding: 100px 0;
+}
+
+.services-section h3{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin: 0 0 50px 0;
+}
+
+.service-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service-item{
+    height: 350px;
+    width: 350px;
+    position: relative;
+    /* background-color: var(--secondary); */
+    transition: all 300ms ease-in-out;
+    border-radius: 10px;
+}
+
+.service-item img{
+position: relative;
+ width: 100%;
+ object-fit:cover;
+ /* object-position: bottom; */
+ height: 100%;
+    border-radius: 10px;
+
+ /* z-index: -1; */
+}
+
+.service-item p{
+    position: absolute;
+    color: var(--white);
+    text-align: center;
+    text-transform:capitalize;
+    font-size: 50px;
+    line-height: 55px;
+    text-indent: unset;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    margin: unset;
+    text-shadow: 5px 3px 5px var(--page-color)  ;
+    z-index: 100;
+}
+
+.service-item .overlayxxx{
+    background-color: #343434;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 50;
+}
+
+.service-item:before{
+    content: "";
+    background-color: #343434;
+    opacity: 0.5;
+    width: 0;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 50;
+    border-radius: 10px;
+    transition: all 300ms ease-in-out;
+}
+
+.service-item:hover{
+    box-shadow: 5px 5px 5px var(--page-color);
+}
+
+.service-item:hover::before{
+    width: 100%;
+}
+/* About Us Section */
+.aboutus-section{
+    width: 100vw;
+    /* height: 500px; */
+    background-color: var(--theme);
+    padding: 100px 0;
+}
+
+.aboutus-section h3{
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    margin: 0 0 50px 0;
+    color: var(--white);
+}
+
+.aboutus-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutus-item{
+    height: 350px;
+    width: 350px;
+    position: relative;
+    /* background-color: var(--secondary); */
+    transition: all 300ms ease-in-out;
+    border-radius: 10px;
+}
+
+.aboutus-item img{
+position: relative;
+ width: 100%;
+ object-fit:cover;
+ /* object-position: bottom; */
+ height: 100%;
+    border-radius: 10px;
+
+ /* z-index: -1; */
+}
+
+.aboutus-item p{
+    position: absolute;
+    color: var(--white);
+    text-align: center;
+    text-transform:capitalize;
+    font-size: 50px;
+    line-height: 55px;
+    text-indent: unset;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    margin: unset;
+    text-shadow: 5px 3px 5px var(--page-color)  ;
+    z-index: 100;
+}
+
+.aboutus-item .overlayxxx{
+    background-color: #343434;
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 50;
+}
+
+.aboutus-item:before{
+    content: "";
+    background-color: #343434;
+    opacity: 0.5;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    z-index: 50;
+    border-radius: 10px;
+    transition: all 300ms ease-in-out;
+}
+
+.aboutus-item:hover{
+    box-shadow: 5px 5px 5px var(--page-color);
+}
+
+.aboutus-item:hover::before{
+    height: 100%;
+}
+
+/* Footer Section */
+footer{
+    padding: 70px 0 0;
+}
+.footer-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    padding: 0 100px;
+}
+.footer-aboutus{
+    width: 50%;
+}
+.footer-aboutus img {
+    filter: grayscale(1) invert(1);
+}
+.footer-aboutus p{
+    text-align: justify;
+    color: var(--white);
+    font-size: 20px;
+    text-indent: unset;
+    padding-right: 50px;
+}
+.footer-links{
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+}
+.footer-pages h3, .footer-news h3{
+    font-size: 22px;
+    color: var(--white);
+}
+.footer-pages ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-pages li a{
+    font-size: 20px;
+    color: var(--white);
+    font-family: var(--font-paragraph);
+}
+.footer-news-item{
+    display: flex;
+    justify-content: start;
+    gap:20px;
+    align-items: center;
+}
+.footer-news-item img{
+    width: 50px;
+}
+.footer-news-item h3{
+    color: var(--white);
+    font-size: 20px;
+}
+.footer-copywrite{
+    background-color:#535252;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-copywrite p{
+    font-size: 15px;
+    color: var(--white);
+    text-align: center;
+}
+/* Footer Container */
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 100px; /* Horizontal padding */
+}
+
+/* About Us Section */
+.footer-aboutus {
+    width: 50%; /* Takes half the container */
+}
+.footer-aboutus img {
+    filter: grayscale(1) invert(1); /* Makes the logo white */
+}
+
+/* Links & News Section */
+.footer-links {
+    width: 50%;
+    display: flex;
+    justify-content: start;
+    gap: 50px; /* Space between links and news */
+}
+
+/* Copyright Bar */
+.footer-copywrite {
+    background-color: #535252;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Tablet and Mobile Styles */
+@media (max-width: 768px) {
+    /* Make nav items stack vertically */
+    nav ul {
+        flex-direction: column;
+        gap: 10px; /* Less space between items */
+        padding: 10px 0;
+    }
+
+    /* Make service items take full width */
+    .service-item, .aboutus-item {
+        width: 100%;
+        max-width: 350px; /* But don't get too wide */
+    }
+
+    /* Stack footer columns */
+    .footer-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-aboutus, .footer-links {
+        width: 100%;
+    }
+    .footer-links {
+        flex-direction: column;
+        gap: 30px;
+    }
+}

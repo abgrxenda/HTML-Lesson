@@ -1,0 +1,108 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap'); */
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS */
+
+body{
+    background-color: rgb(52, 52, 52);
+    margin: 0;
+}
+
+.bodystyle{
+    font-family: 'Cairo';
+  /* font-family: "Cookie"; */
+  /* font-weight: 400; */
+  font-style: normal;
+  line-height: 25px;
+  font-size: 20px;
+}
+a{
+    color: red;
+    text-decoration: none;
+    word-spacing: 50px;
+}
+a{
+    color: darkgoldenrod;
+}
+h1{
+    color:rgb(8, 98, 98);
+    font-size: 60px;
+}
+h3{
+    font-size: small;
+}
+p{
+    font-size: 20px;
+    color: rgb(75,131,7);
+    line-height: 32px;
+    font-style: oblique;
+    line-break:loose;
+    break-inside: avoid;
+    text-align: justify;
+    text-indent: 50px;
+    text-wrap: 100px;
+}
+img{
+    width:200px;
+}
+#githubImage{
+    width: 50px;
+}
+
+.imgborder{
+    border-radius: 50% 35%;
+    /* any comments */
+    /* height: 300px; */
+    /* max-height: 100px; */
+    /* border-bottom-right-radius: ;
+    border-top-left-radius: ;
+    border-top-right-radius: ;
+    border-bottom-left-radius: ; */
+}
+.smallimg{
+    width: 100px;
+    background-color: blueviolet;
+}
+.github{
+    width: 250px;
+}
+
+@keyframes identifier {
+    
+}
+
+/* Style for the entire header */
+header {
+    background-color: #fbfff8; /* Light background color */
+    height: 100px; /* Fixed height */
+    display: flex; /* Uses Flexbox layout */
+    align-items: center; /* Vertically centers children */
+}
+
+/* Style for the logo container */
+div.header-logo {
+    background-color: red; /* Placeholder background */
+    width: fit-content; /* Width adjusts to content (the image) */
+    height: 100px; /* Matches header height */
+    margin-left: 20px; /* Adds space from the left edge */
+}
+
+/* Style for the navigation container */
+nav {
+    width: 50%; /* Takes up half the header width */
+    left: 25%; /* Positions it 25% from the left (centering it) */
+    right: 25%; /* Positions it 25% from the right */
+    position: relative; /* Needed for 'left' and 'right' to work */
+}
+
+/* Style for the navigation list */
+nav ul {
+    list-style: none; /* Removes bullet points */
+    color: rgb(107, 43, 43); /* Text color */
+    font-family: Cairo; /* Font family */
+    font-size: 20px; /* Font size */
+    display: flex; /* Makes list items display horizontally */
+    justify-content: space-evenly; /* Distributes items evenly with space between them */
+    align-items: center; /* Vertically centers items within the ul */
+    padding: 0; /* Removes default padding */
+    margin: 0; /* Removes default margin */
+}

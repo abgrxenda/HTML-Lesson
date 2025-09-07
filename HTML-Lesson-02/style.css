@@ -1,0 +1,40 @@
+.bodystyle{
+    font-family: 'Cairo';
+}
+a{
+    color: red;
+    text-decoration: none;
+}
+a{
+    color: darkgoldenrod;
+}
+h1{
+    color:rgb(8, 98, 98);
+    font-size: 60px;
+}
+h3{
+    font-size: small;
+}
+p{
+    font-size: 20px;
+    color: rgb(75,131,7);
+}
+img{
+    width:200px;
+}
+.imgborder{
+    border-radius: 50% 35%;
+    /* height: 300px; */
+    /* max-height: 100px; */
+    /* border-bottom-right-radius: ;
+    border-top-left-radius: ;
+    border-top-right-radius: ;
+    border-bottom-left-radius: ; */
+}
+.smallimg{
+    width: 150px;
+    background-color: blueviolet;
+}
+.github{
+    width: 250px;
+}

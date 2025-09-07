@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+
+/* https://developer.mozilla.org/en-US/docs/Web/CSS */
+:root{
+    --primary: darkgoldenrod;
+    --secondary: #2caa50;
+    --theme:  rgb(75,131,7);
+    --page-color: #343434;
+    --font-header: bold 20px 'Cairo';
+    --font-paragraph: 'Exo';
+}
+
+
+body{
+    background-color: var(--page-color);
+    margin: 0;
+}
+
+.bodystyle{
+    font-family: 'Cairo';
+  /* font-family: "Cookie"; */
+  /* font-weight: 400; */
+  font-style: normal;
+  line-height: 25px;
+  font-size: 20px;
+}
+a{
+    color: red;
+    text-decoration: none;
+    word-spacing: 50px;
+}
+a{
+    color: var(--primary);
+}
+a:hover{
+    color: var(--secondary);
+}
+a:visited{
+
+}
+a:active, a:focus{
+
+}
+h1, h2, h3, h4, h5, h6{
+    font: var(--font-header);
+}
+h1{
+    color: var(--theme);
+    font-size: 60px;
+}
+h3{
+    font-size: small;
+}
+p{
+    font-size: 20px;
+    color: var(--theme);
+    font-family: var(--font-paragraph);
+    line-height: 32px;
+    font-style: oblique;
+    line-break:loose;
+    break-inside: avoid;
+    text-align: justify;
+    text-indent: 50px;
+    text-wrap: 100px;
+}
+img{
+    width:200px;
+}
+#githubImage{
+    width: 50px;
+}
+
+.imgborder{
+    border-radius: 50% 35%;
+    /* any comments */
+    /* height: 300px; */
+    /* max-height: 100px; */
+    /* border-bottom-right-radius: ;
+    border-top-left-radius: ;
+    border-top-right-radius: ;
+    border-bottom-left-radius: ; */
+}
+.smallimg{
+    width: 100px;
+    /* background-color: var(--secondary); */
+}
+.github{
+    width: 250px;
+}
+
+@keyframes identifier {
+    
+}
+
+header{
+background-color: #fbfff8;
+height: 100px;
+display: flex;
+align-items: center;
+font: var(--font-header);
+}
+
+div.header-logo{
+ /* background-color: #2caa50; */
+ width: fit-content;
+ height: 100px;
+ margin-left: 20px;
+}
+
+div[data-stylt]{
+    display: none;
+}
+/* pt px % vw vh */
+nav{
+    width: calc(100vw - 50%); 
+    left: calc(100vw - 75%);
+    right: calc((100vw - 75%));
+    position: relative;
+    /* position: absolute; */
+}
+nav ul{
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    /* width: 100%; */
+    list-style: none;
+    color: rgb(107, 43, 43);
+    font-size: 20px;
+    display: flex; /* style all elements beside each other */
+    justify-content: space-evenly; /* align horizontal*/
+    align-items: center; /* align vertical*/
+    padding: 0;
+}
+
+nav ul li:before{
+    content: "⭕ ";
+}
+
+main {
+    height: calc(100vh - 100px); /* Full viewport height minus header height */
+    width: 100vw; /* Full viewport width */
+    background-color: var(--primary);
+    /* Two background images! */
+    background-image: url(child.png), url(RE4wyTK.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center, top center; /* Position each image */
+    background-size: 25%, cover; /* Size each image */
+    display: flex; /* Flexbox container */
+    align-items: center; /* Vertically center the child (.main-div) */
+}
+
+main h1{
+    color: var(--primary);
+    margin: 0;
+}
+
+/* Centers the heading and paragraph container horizontally */
+main div.main-div {
+    text-align: center;
+    font: var(--font-header);
+}
+
+/* Makes the two paragraphs sit side-by-side */
+main div div.paragraph {
+    display: flex;
+    font-family: var(--font-paragraph);
+}
+
+/* Adds padding around each paragraph */
+div.paragraph p {
+    color: whitesmoke;
+    padding: 100px;
+}

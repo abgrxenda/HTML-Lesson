@@ -1,0 +1,37 @@
+Photo
+file.jpg
+very.long.name.png
+*.jpeg
+*.gif
+*.webm
+
+Audio
+.aac
+.mp3
+.wav 
+.weba 
+
+Video
+.mp4
+.mov 
+.webm 
+.mkv 
+
+Text 
+.txt
+.html 
+.htm 
+.js 
+.php 
+.vba 
+.css 
+
+
+
+Excel, PDF, Word, 
+.xls .xlsx .pdf .doc .docx .ppt .pptx
+
+js-> html 
+css-> html 
+html !-> js 
+html !-> css
