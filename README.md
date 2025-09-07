@@ -20,42 +20,40 @@ By the end of this course, you will be able to:
 
 ## 📚 Course Outline
 
-### 🟢 HTML-Lesson-01: Getting Started
-- What is HTML & CSS?
-- Setting up your workspace (VS Code + browser)
-- Your first HTML file: `index.html`
-- Basic HTML structure: `<!DOCTYPE>`, `<html>`, `<head>`, `<body>`
+### 🟢 **Lesson 01: Your First HTML Page & Inline Styling**
+Create your very first webpage! Learn basic HTML elements (`<h1>`, `<p>`, `<a>`, `<img>`) and apply styles directly using the `style` attribute.
 
-### 🟡 HTML-Lesson-02: HTML Fundamentals
-- Headings, paragraphs, and text formatting
-- Lists (ordered & unordered)
-- Links and images
-- Semantic HTML: `<header>`, `<nav>`, `<section>`, `<footer>`, etc.
-- Forms and inputs (basics)
+➡️ [Start Lesson 01](./lesson-01/README.md)
 
-### 🔵 HTML-Lesson-03: CSS Basics
-- What is CSS? Inline, internal, and external stylesheets
-- Selectors: element, class, ID
-- Colors, fonts, and text styling
-- The Box Model: margin, padding, border, width/height
-- Display properties: block, inline, inline-block
+### 🟡 **Lesson 02: Structuring Your Page & External CSS**
+Learn the proper structure of an HTML document (`<head>`, `<body>`, metadata) and move your styles into a separate `.css` file for better organization.
 
-### 🟣 HTML-Lesson-04: Layouts & Positioning
-- Flexbox: aligning and distributing content
-- CSS Grid: creating 2D layouts
-- Position: static, relative, absolute, fixed
-- Centering elements (the holy grail 😄)
+➡️ [Start Lesson 02](./lesson-02/README.md)
 
-### 🟤 HTML-Lesson-05: Responsive Design
-- Viewport meta tag
-- Media queries for mobile, tablet, desktop
-- Mobile-first design principles
-- Responsive images and units (%, em, rem, vw/vh)
+### 🔵 **Lesson 03: Mastering CSS Selectors, Properties & The Cascade**
+Dive deep into CSS selectors (classes, IDs), specificity, and the cascade. Understand why some styles override others.
 
-### 🟠 HTML-Lesson-06: Final Project
-- Plan and design a personal portfolio or small business site
-- Code it from scratch using HTML & CSS
-- Deploy it using GitHub Pages or Netlify (optional)
+➡️ [Start Lesson 03](./lesson-03/README.md)
+
+### 🟣 **Lesson 04: Building a Website Header & Navigating Between Pages**
+Create a professional header with a navigation menu using semantic HTML (`<header>`, `<nav>`, `<ul>`) and link to different pages.
+
+➡️ [Start Lesson 04](./lesson-04/README.md)
+
+### 🟤 **Lesson 05: Mastering Layouts with CSS Flexbox & CSS Variables**
+Use Flexbox to create dynamic layouts and CSS Variables to manage your theme colors and fonts efficiently.
+
+➡️ [Start Lesson 05](./lesson-05/README.md)
+
+### 🟠 **Lesson 06: Building a Services Section with CSS Grid & Advanced Hover Effects**
+Level up with CSS Grid to create stunning two-dimensional layouts. Add beautiful hover animations to your service cards.
+
+➡️ [Start Lesson 06](./lesson-06/README.md)
+
+### 🟢 **Lesson 07: Responsive Design & Building a Complete Website Footer**
+Make your site look perfect on all devices using Media Queries. Build a professional multi-column footer and implement a sticky header.
+
+➡️ [Start Lesson 07](./lesson-07/README.md)
 
 ---
 
@@ -68,26 +66,33 @@ By the end of this course, you will be able to:
 
 ---
 
-## 🚀 How to Use This Course
-
-1. **Clone or download** this repository.
-2. Open the folder in VS Code.
-3. Each module has its own folder with:
-   - ✍️ Step-by-step instructions (`README.md`)
-   - 📄 Example code files
-   - 🧩 Practice exercises
-   - ✅ Solutions (check after trying yourself!)
-4. Code along — type everything yourself. Don’t just copy-paste!
-5. Experiment. Break things. Fix them. That’s how you learn.
-
----
-
 ## 🤝 Support & Community
 
 Stuck? Confused? Excited? Join our friendly community!
 
+- 💬 [Discord Channel](https://github.com/abgrxenda/HTML-Lesson/discussions)
 - ❓ Open an Issue on GitHub for help
 - 🌟 Star this repo if you’re enjoying the course!
+
+---
+
+## ☕️ Enjoying the Course? Consider Supporting!
+
+Creating and maintaining this free, step-by-step course takes time, effort, and lots of coffee ☕️.
+
+If you’ve found this course helpful and would like to support its continued development (or just say thanks), you can buy me a coffee or donate via Ko-fi. Every little bit is deeply appreciated and helps me keep creating free resources for beginners like you!
+
+<div align="center">
+  <a href="https://ko-fi.com/abgrxenda" target="_blank">
+    <img src="https://github.githubassets.com/assets/ko_fi-53a60c17e75c.svg" alt="Support on Ko-fi" width="160">
+  </a>
+  <span style="margin: 0 20px; font-size: 24px;">or</span>
+  <a href="https://buymeacoffee.com/abgrxenda" target="_blank">
+    <img src="https://github.githubassets.com/assets/buy_me_a_coffee-63ed78263f6e.svg" alt="Buy Me a Coffee" width="160">
+  </a>
+</div>
+
+**Thank you for your support — it means the world!** 🙏
 
 ---
 
@@ -103,21 +108,13 @@ Thanks to all the amazing educators and open-source contributors who paved the w
 
 ---
 
-## ✨ Ready to Begin?
-
-Jump into **HTML-Lesson-01** and let’s write your first line of HTML together!
-
-➡️ [Start with HTML-Lesson-01: Getting Started](./HTML-Lesson-01/README.md)
-
----
-
 > “The expert in anything was once a beginner.” — Helen Hayes  
 > You’ve got this. 💪 Let’s build something awesome.
 
 ---
 
 ⭐ **Star this repo to bookmark your progress!** ⭐  
-📬 Feedback? Suggestions? Email: htmlcourse@otek.today
+📬 Feedback? Suggestions? Email: htmlcourse@otek.today  
 🌐 Follow along on Linkedin: [@abgrxenda](https://linkedin.com/in/abgrxenda)
 
 ---
